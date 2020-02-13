@@ -9,11 +9,14 @@
 
 #leftmenu {
     width: 200px;
-    height: 215px;
+    height: 220px;
     background-color: #FFD662FF;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: -180px;
+    transition: left 0.3s;
 }
 
 #avatar {
@@ -37,10 +40,10 @@
 
 #right_top {
 width: 125px;
-height: 35px;
+height: 40px;
 background-color:#FFD662FF;
 margin-bottom: 10px;
-left: 1008px;
+
 
 
 }
@@ -53,5 +56,5 @@ left: 1008px;
 
 .rightmenu {
     position: relative;
-    left: 1000px;
+    left: 92.5%;
 }
