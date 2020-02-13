@@ -1,0 +1,60 @@
+#app{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+}
+
+
+
+
+#leftmenu {
+    width: 200px;
+    height: 220px;
+    background-color: #FFD662FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -180px;
+    transition: left 0.3s;
+}
+
+#avatar {
+    width: 65px;
+    height: 90px;
+    background-color: #00539CFF;
+    position: relative;
+    right: 20px;
+    bottom: 40px;    
+}
+
+
+#logout {
+    width: 50px;
+    height: 25px;
+    background-color: #00539cFF;
+    position: relative;
+    bottom: 72px;
+}
+
+
+#right_top {
+width: 125px;
+height: 40px;
+background-color:#FFD662FF;
+margin-bottom: 10px;
+
+
+
+}
+#right_bottom {
+    height: 300px;
+    width: 150px;
+    background-color:#FFD662FF;
+    
+}
+
+.rightmenu {
+    position: relative;
+    left: 92.5%;
+}
