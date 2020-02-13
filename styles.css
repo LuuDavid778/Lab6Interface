@@ -7,18 +7,40 @@
  background-color: aqua;
   }
 
-#left{
-    margin-left: 20px;
+  #bigger_cont {
+    display: flex;
+}
+
+#left1{
+    /* margin-left: 20px;
     margin-top: 40px;
     width: 20%;
-    height: 60px;
+    height: 60px; */
     background-color: blanchedalmond;
+    flex: 1;
 }
 
 #left2{
-    margin-left: 80px;
-    margin-top: 50px;
-    width: 20px;
-    height: 40px;
-    background-color: blue;
+    /* margin-left: 20px;
+    margin-top: 40px;
+    width: 20%;
+    height: 60px; */
+    background-color: blanchedalmond;
+    flex: 1;
+}
+#left3{
+    /* margin-left: 20px;
+    margin-top: 40px;
+    width: 20%;
+    height: 60px; */
+    background-color: blanchedalmond;
+    flex: 1;
+}
+#left4{
+    /* margin-left: 20px;
+    margin-top: 40px;
+    width: 20%;
+    height: 60px; */
+    background-color: blanchedalmond;
+    flex: 1;
 }
