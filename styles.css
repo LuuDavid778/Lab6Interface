@@ -1,6 +1,7 @@
 #app{
     width: 100vw;
     height: 100vh;
+    background-color: beige;
 }
 
 
@@ -31,4 +32,26 @@
     background-color: #00539cFF;
     position: relative;
     bottom: 72px;
+}
+
+
+#right_top {
+width: 125px;
+height: 35px;
+background-color:#FFD662FF;
+margin-bottom: 10px;
+left: 1008px;
+
+
+}
+#right_bottom {
+    height: 300px;
+    width: 150px;
+    background-color:#FFD662FF;
+    
+}
+
+.rightmenu {
+    position: relative;
+    left: 1000px;
 }
